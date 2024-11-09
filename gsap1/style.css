@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  margin-top: 3rem;
+}
+
+.box1 {
+  width: 7rem;
+  height: 7rem;
+  background-color: rgb(89, 214, 26);
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+.box2 {
+  width: 7rem;
+  height: 7rem;
+  background-color: rgb(26, 73, 214);
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.box3 {
+  width: 7rem;
+  height: 7rem;
+  background-color: rgb(214, 126, 26);
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #0000009c;
+  overflow-x: hidden;
+}
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styles */
+.page1 {
+  height: 100vh;
+  background-color: #f8b400;
+  /* Yellow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .page2 {
+  height: 100vh;
+  background-color: #f85f73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* this for pin animation */
+.page2 {
+  height: 100vh;
+  background-color: #f85f73;
+  /* Pink */
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.page3 {
+  height: 100vh;
+  background-color: #4f9cdb;
+  /* Blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box styles */
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6347;
+  /* Tomato */
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #32cd32;
+  /* Lime Green */
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: #9370db;
+  /* Medium Purple */
+}
+
+.page2 h1 {
+  font-size: 30vw;
+  text-transform: uppercase;
+  font-weight: 600;
+}
